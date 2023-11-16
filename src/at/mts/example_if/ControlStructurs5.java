@@ -5,11 +5,11 @@ import java.util.Random;
 public class ControlStructurs5 {
     public static void main(String[] args) {
         // Erstelle eine Zufallszahl zwischen 5 und 10
-        Random random =new Random();
-        int randomNumber = random.nextInt(5,10);
+        Random random = new Random();
+        int randomNumber = random.nextInt(5, 10);
 
         // Wenn der Wert 10 ist gib aus Ten
-        switch (randomNumber){
+        switch (randomNumber) {
             case 10:
                 System.out.println("Ten");
                 break;
@@ -17,7 +17,7 @@ public class ControlStructurs5 {
             case 9:
                 System.out.println("Nine");
                 break;
-                // Wenn der Wert 8 ist gib aus Eight
+            // Wenn der Wert 8 ist gib aus Eight
             case 8:
                 System.out.println("Eight");
                 break;
@@ -34,4 +34,4 @@ public class ControlStructurs5 {
         }
 
     }
-
+}
