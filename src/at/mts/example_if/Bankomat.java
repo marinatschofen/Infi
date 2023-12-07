@@ -25,9 +25,18 @@ public class Bankomat {
                 System.out.println("Folgender Betrag wird einbezahlt: "+d+"");
                 kontostand+=d;
 
+            if (auswahl == 2){
+                System.out.println("Wechen Betrag möchten sie abheben");
+            }
+
+            if(auswahl == 3){;
+                System.out.println("Kontostand ist:"+kontostand);
+            }
+
             }
 
         }while (auswahl !=4);
+
 
 
     }
