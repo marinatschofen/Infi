@@ -15,7 +15,7 @@ public class Testit {
 
 
         for (int i = 1; i<=100;i++){
-            int ci = r.nextInt();
+            //int ci = r.nextInt();
             // int randomNumber = random.nextInt(max + 1 - min) + min;
             int ci = r.nextInt(charListe.length -1 - 0) + 0;
             int ni = r.nextInt(nameListe.length -1 - 0) + 0;
@@ -23,7 +23,7 @@ public class Testit {
             int fi = r.nextInt(farbListe.length -1 - 0) + 0;
             int ai = r.nextInt(25 + 1 - 0) + 0;
 
-            mKatzenListe.add(new Katze (charListe[ci],oberflListe[oi],nameListe[ni],farbListe[fi],[ai];
+            mKatzenListe.add(new Katze (charListe[ci],oberflListe[oi],ai,farbListe[fi],nameListe[ni]));
         }
         katze.setAlter(1);
         katze.setCharakter("bösartig");
@@ -37,7 +37,7 @@ public class Testit {
        // System.out.println("Meine Katze "+katze.getName()+" ist " + katze.getAlter() + " alt! ");
 
         for(Katze k: mKatzenListe){
-            System.out.println("Meine Katze "+k.getName()+" ist " + k.getAlter() + " alt, "+ k.getCharakter()+ " " + k.getFarbe()+" " +k.getOberflaechenbeschaffenheit());
+            System.out.println("Meine Katze "+k.getName()+" ist " + k.getAlter() + " Jahre alt, "+ k.getCharakter()+ " " + k.getFarbe()+" " +k.getOberflaechenbeschaffenheit());
 
         }
     }
